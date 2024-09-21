@@ -1,0 +1,13 @@
+:root {
+    --cryptolab-orange: #ff6600;
+    --cryptolab-blue: #0079fb;
+    --cryptolab-white: #F5F5F5;
+    --cryptolab-dark-grey: #1b1f26;
+    --cryptolab-black: #000000;
+
+    --cryptolab-hash: #FFE8CC;
+    --cryptolab-cryptography: #E6F2FF;
+    --cryptolab-general-grey: #D1D1D1;
+    --cryptolab-protocols: #DFF6F3;
+    --cryptolab-attacks: #FFE5E5;
+}

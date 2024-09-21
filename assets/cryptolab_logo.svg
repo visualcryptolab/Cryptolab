@@ -1,0 +1,10 @@
+<svg x="0" y="0" width="800px" height="800px" class="image-svg-svg primary"
+    style="overflow: visible;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 80 80">
+        <title>cryptolab</title>
+        <path d="M37.23 74.45a37.23 37.23 0 1 1 0-74.45L67 59.56a37.19 37.19 0 0 1-29.77 14.89z"
+            fill="#FF6600" opacity=".8"></path>
+        <path d="M37.23 0a37.23 37.23 0 1 0 0 74.45L67 14.89A37.19 37.19 0 0 0 37.23 0z"
+            fill="#007AFF" opacity=".8"></path>
+    </svg>
+</svg>
