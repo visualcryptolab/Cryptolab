@@ -8,6 +8,7 @@
 
 body {
     background-color: var(--cryptolab-white);
+    height: 200vh;
 }
 
 h1 {
@@ -19,10 +20,14 @@ h1 {
 }
 
 .main-container {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     justify-self: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 .main-container > *{
@@ -33,6 +38,14 @@ h1 {
     width: 200px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .scroll-indicator {
-    width: 48px;
+    width: 64px;
+    cursor: pointer;
 }
