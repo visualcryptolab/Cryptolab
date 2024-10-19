@@ -1,9 +1,9 @@
 @import url("colors.css");
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -19,13 +19,102 @@ h1 {
       0 0 10px rgba(255, 255, 255, 0.3);
 }
 
+.navbar {
+    background-color: var(--cryptolab-white);
+    color: var(--cryptolab-dark-grey);
+    justify-content: space-between;
+    transition: top 0.3s ease;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px;
+    position: fixed;
+    display: flex;
+    height: 4.5rem;
+    top: -4.5rem;
+    z-index: 10;
+    right: 0;
+    left: 0;
+}
+
+
+.navbar .logo {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    width: 3rem;
+}
+
+.navbar .logo h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.crypto {
+    color: var(--cryptolab-blue);
+}
+
+.lab {
+    color: var(--cryptolab-orange);
+}
+
+.navbar .nav-links{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+button {
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1), color 0.167s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cryptolab-orange);
+    color: var(--cryptolab-white);
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    justify-content: center;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: inline-flex;
+    border-radius: 100px;
+    align-items: center;
+    padding-right: 20px;
+    text-align: center;
+    padding-left: 20px;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    font-weight: 600;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+button:hover,
+button:focus { 
+  background-color: var(--cryptolab-orange-hovered);
+  color: var(--cryptolab-white-hovered);
+}
+
+button:active {
+  background: var(--cryptolab-orange-active);
+  color: var(--cryptolab-white-active);
+}
+
+button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
 .main-container {
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
     position: absolute;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    justify-self: center;
     height: 100vh;
     width: 100vw;
 }
@@ -39,13 +128,13 @@ h1 {
 }
 
 .content {
-    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    display: flex;
 }
 
 .scroll-indicator {
-    width: 64px;
     cursor: pointer;
+    width: 64px;
 }

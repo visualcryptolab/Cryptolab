@@ -10,4 +10,22 @@
     --cryptolab-general-grey: #D1D1D1;
     --cryptolab-protocols: #DFF6F3;
     --cryptolab-attacks: #FFE5E5;
+
+    --cryptolab-orange-hovered: #e65a00;
+    --cryptolab-blue-hovered: #006ae0;
+    --cryptolab-white-hovered: #f1f1f1;
+    --cryptolab-dark-grey-hovered: #171a21;
+    --cryptolab-black-hovered: #101010;
+
+    --cryptolab-orange-active: #cc4f00;
+    --cryptolab-blue-active: #0057b8;
+    --cryptolab-white-active: #cccccc;
+    --cryptolab-dark-grey-active: #14171c;
+    --cryptolab-black-active: #080808;
+
+    --cryptolab-orange-disabled: #804000;
+    --cryptolab-blue-disabled: #004080;
+    --cryptolab-white-disabled: #999999;
+    --cryptolab-dark-grey-disabled: #0f1114;
+    --cryptolab-black-disabled: #303030;
 }
