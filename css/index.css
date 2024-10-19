@@ -16,14 +16,15 @@ h1 {
     font-size: 5rem;
     text-align: center;
     margin-bottom: -45px;
-    text-shadow: 
-    0 2px 4px rgba(0, 0, 0, 0.4), 
-    0 0 8px rgba(255, 255, 255, 0.3);
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.4),
+        0 0 8px rgba(255, 255, 255, 0.3);
 }
 
-h1 .interactive_visual{
+h1 .interactive_visual {
     color: var(--cryptolab-orange);
 }
+
 .navbar {
     background-color: var(--cryptolab-white);
     color: var(--cryptolab-dark-grey);
@@ -39,6 +40,10 @@ h1 .interactive_visual{
     z-index: 10;
     right: 0;
     left: 0;
+}
+.navbar > *{
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .navbar .logo {
@@ -60,7 +65,8 @@ h1 .interactive_visual{
     color: var(--cryptolab-orange);
 }
 
-.navbar .nav-links{
+.navbar .nav-links {
+    width: 70%;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
@@ -84,30 +90,28 @@ button {
     line-height: 20px;
     max-width: 480px;
     min-height: 40px;
-    font-weight: 600;
     overflow: hidden;
     cursor: pointer;
     font-size: 14px;
-    min-width: 0px;
-    padding: 0px;
-    border: 0;
+    border: none;
+    width: 10rem;
 }
 
 button:hover,
-button:focus { 
-  background-color: var(--cryptolab-orange-hovered);
-  color: var(--cryptolab-white-hovered);
+button:focus {
+    background-color: var(--cryptolab-orange-hovered);
+    color: var(--cryptolab-white-hovered);
 }
 
 button:active {
-  background: var(--cryptolab-orange-active);
-  color: var(--cryptolab-white-active);
+    background: var(--cryptolab-orange-active);
+    color: var(--cryptolab-white-active);
 }
 
-button:disabled { 
-  cursor: not-allowed;
-  background: rgba(0, 0, 0, .08);
-  color: rgba(0, 0, 0, .3);
+button:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
 }
 
 .main-container {
@@ -121,7 +125,7 @@ button:disabled {
     width: 100vw;
 }
 
-.main-container > *{
+.main-container>* {
     z-index: 2;
 }
 
@@ -139,4 +143,23 @@ button:disabled {
 .scroll-indicator {
     cursor: pointer;
     width: 64px;
+}
+
+.options-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options-container h2  {
+    position: absolute;
+    top: 120vh;
+}
+.most{
+    color: var(--cryptolab-black);
+}
+
+.common{
+    color: var(--cryptolab-blue);
 }

@@ -3,9 +3,7 @@
 :root {
     --color1: #5C5196;
     --color2: #B6D4FB;
-    --color3: #025EC2;
-    --color4: #1EDAF4;
-    --color5: #A8D6FD;
+    --color3: #3582d4;
     --color-interactive: #A8D6FD;
     --circle-size: 140%;
     --blending: multiply;
@@ -84,7 +82,7 @@
 
 .gradient-bg .g2 {
     position: absolute;
-    background: radial-gradient(circle at center, var(--color3) 0, transparent 40%);
+    background: radial-gradient(circle at center, var(--color2) 0, transparent 40%);
     mix-blend-mode: var(--blending);
     width: var(--circle-size);
     height: var(--circle-size);
@@ -98,7 +96,7 @@
 
 .gradient-bg .g3 {
     position: absolute;
-    background: radial-gradient(circle at center, var(--color4) 0, transparent 40%);
+    background: radial-gradient(circle at center, var(--color3) 0, transparent 40%);
     mix-blend-mode: var(--blending);
     width: var(--circle-size);
     height: var(--circle-size);
