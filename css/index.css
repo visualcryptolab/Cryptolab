@@ -13,12 +13,17 @@ body {
 
 h1 {
     color: var(--cryptolab-white);
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: -45px;
     text-shadow: 
-      1px 1px 3px rgba(0, 0, 0, 0.3),
-      -1px -1px 3px rgba(0, 0, 0, 0.3),
-      0 0 10px rgba(255, 255, 255, 0.3);
+    0 2px 4px rgba(0, 0, 0, 0.4), 
+    0 0 8px rgba(255, 255, 255, 0.3);
 }
 
+h1 .interactive_visual{
+    color: var(--cryptolab-orange);
+}
 .navbar {
     background-color: var(--cryptolab-white);
     color: var(--cryptolab-dark-grey);
@@ -36,9 +41,7 @@ h1 {
     left: 0;
 }
 
-
 .navbar .logo {
-    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     display: flex;
     width: 3rem;
@@ -65,7 +68,6 @@ h1 {
 
 button {
     transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1), color 0.167s cubic-bezier(0.4, 0, 0.2, 1);
-    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cryptolab-orange);
     color: var(--cryptolab-white);
     touch-action: manipulation;
@@ -124,7 +126,7 @@ button:disabled {
 }
 
 .logo-container {
-    width: 200px;
+    width: 16.5rem;
 }
 
 .content {
