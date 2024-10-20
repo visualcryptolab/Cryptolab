@@ -154,7 +154,11 @@ button:disabled {
 
 .options-container h2  {
     position: absolute;
-    top: 120vh;
+    top: 115vh;
+    font-size: 5rem;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.05),
+             0px 8px 13px rgba(0,0,0,0.05),
+             0px 18px 23px rgba(0,0,0,0.05);
 }
 .most{
     color: var(--cryptolab-black);
